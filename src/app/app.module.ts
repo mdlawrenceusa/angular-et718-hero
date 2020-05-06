@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { HeroComponent } from './hero.component';
-
+import { NavComponent } from './et710nav.component';
 
 import {
   AccordionModule,
@@ -29,8 +29,8 @@ import {
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, AlertModule.forRoot() ],
-  declarations: [ AppComponent, HelloComponent, HeroComponent ],
+  imports:      [ BrowserModule, FormsModule, AlertModule.forRoot(), NavComponent ], 
+  declarations: [ AppComponent, HelloComponent, HeroComponent, NavComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

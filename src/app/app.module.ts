@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { HeroComponent } from './hero.component';
-import { NavComponent } from './et710nav.component';
+import  { Nav} from './et710nav.component';
 
 import {
   AccordionModule,

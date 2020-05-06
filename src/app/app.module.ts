@@ -29,8 +29,10 @@ import {
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, AlertModule.forRoot(),Nav710Component  ], 
+  imports:      [ BrowserModule, FormsModule, AlertModule.forRoot(), ], 
+
   declarations: [ AppComponent, HelloComponent, HeroComponent, Nav710Component ],
+
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

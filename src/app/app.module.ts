@@ -29,8 +29,8 @@ import {
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, AlertModule.forRoot(), NavComponent ], 
-  declarations: [ AppComponent, HelloComponent, HeroComponent, NavComponent ],
+  imports:      [ BrowserModule, FormsModule, AlertModule.forRoot() ], 
+  declarations: [ AppComponent, HelloComponent, HeroComponent, ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

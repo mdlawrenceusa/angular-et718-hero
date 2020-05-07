@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: [ './et710nav.component.css' ]
 })
 export class Nav710Component  {
-
+  isOffcanvas = true;
 }

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { AppRoutingModule } from './app-routing.module'; // CLI imports AppRoutingModule
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
@@ -29,7 +30,7 @@ import {
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, AlertModule.forRoot(), ], 
+  imports:      [ BrowserModule, FormsModule, AlertModule.forRoot(), OffcanvasModule.forRoot(), ButtonsModule.forRoot(), AppRoutingModule ], 
 
   declarations: [ AppComponent, HelloComponent, HeroComponent, Nav710Component ],
 
